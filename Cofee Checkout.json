@@ -1,0 +1,255 @@
+{
+    "title": "Cofee Checkout",
+    "steps": [
+        {
+            "type": "setViewport",
+            "width": 1282,
+            "height": 938,
+            "deviceScaleFactor": 1,
+            "isMobile": false,
+            "hasTouch": false,
+            "isLandscape": false
+        },
+        {
+            "type": "navigate",
+            "url": "https://coffee-cart.app/",
+            "assertedEvents": [
+                {
+                    "type": "navigation",
+                    "url": "https://coffee-cart.app/",
+                    "title": "Coffee cart"
+                }
+            ]
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                "aria/Americano",
+                "[data-test='Americano']",
+                "xpath///*[@data-test=\"Americano\"]",
+                "pierce/[data-test='Americano']",
+                "text/espressowater"
+            ],
+            "offsetX": 107.40185546875,
+            "offsetY": 124.53585815429688
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "aria/Remove one Americano"
+                ],
+                [
+                    "div:nth-of-type(2) button:nth-of-type(2)"
+                ],
+                [
+                    "xpath///*[@id=\"app\"]/div[2]/div[1]/ul/li/div[2]/button[2]"
+                ],
+                [
+                    "pierce/div:nth-of-type(2) button:nth-of-type(2)"
+                ],
+                [
+                    "text/-"
+                ]
+            ],
+            "offsetY": 14.078125,
+            "offsetX": 10
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "aria/Flat White"
+                ],
+                [
+                    "[data-test='Flat_White']"
+                ],
+                [
+                    "xpath///*[@data-test=\"Flat_White\"]"
+                ],
+                [
+                    "pierce/[data-test='Flat_White']"
+                ]
+            ],
+            "offsetY": 113.53585815429688,
+            "offsetX": 97.40185546875
+        },
+        {
+            "type": "doubleClick",
+            "target": "main",
+            "selectors": [
+                [
+                    "aria/Add one Flat White"
+                ],
+                [
+                    "ul button:nth-of-type(1)"
+                ],
+                [
+                    "xpath///*[@id=\"app\"]/div[2]/div[1]/ul/li/div[2]/button[1]"
+                ],
+                [
+                    "pierce/ul button:nth-of-type(1)"
+                ],
+                [
+                    "text/+"
+                ]
+            ],
+            "offsetY": 13.078125,
+            "offsetX": 8.15625
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "aria/Cart page"
+                ],
+                [
+                    "li:nth-of-type(2) > a"
+                ],
+                [
+                    "xpath///*[@id=\"app\"]/ul/li[2]/a"
+                ],
+                [
+                    "pierce/li:nth-of-type(2) > a"
+                ],
+                [
+                    "text/cart (0)"
+                ]
+            ],
+            "offsetY": 11,
+            "offsetX": 35.109375
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "aria/Proceed to checkout"
+                ],
+                [
+                    "[data-test='checkout']"
+                ],
+                [
+                    "xpath///*[@data-test=\"checkout\"]"
+                ],
+                [
+                    "pierce/[data-test='checkout']"
+                ],
+                [
+                    "text/Total: $54.00"
+                ]
+            ],
+            "offsetY": 39.171875,
+            "offsetX": 105.5
+        },
+        {
+            "type": "change",
+            "value": "testcheckout",
+            "selectors": [
+                [
+                    "aria/Name"
+                ],
+                [
+                    "#name"
+                ],
+                [
+                    "xpath///*[@id=\"name\"]"
+                ],
+                [
+                    "pierce/#name"
+                ]
+            ],
+            "target": "main"
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "aria/Email"
+                ],
+                [
+                    "#email"
+                ],
+                [
+                    "xpath///*[@id=\"email\"]"
+                ],
+                [
+                    "pierce/#email"
+                ]
+            ],
+            "offsetY": 22.234375,
+            "offsetX": 58.5
+        },
+        {
+            "type": "change",
+            "value": "test1@",
+            "selectors": [
+                [
+                    "aria/Email"
+                ],
+                [
+                    "#email"
+                ],
+                [
+                    "xpath///*[@id=\"email\"]"
+                ],
+                [
+                    "pierce/#email"
+                ]
+            ],
+            "target": "main"
+        },
+        {
+            "type": "keyUp",
+            "key": "2",
+            "target": "main"
+        },
+        {
+            "type": "change",
+            "value": "test1@gmail.com",
+            "selectors": [
+                [
+                    "aria/Email"
+                ],
+                [
+                    "#email"
+                ],
+                [
+                    "xpath///*[@id=\"email\"]"
+                ],
+                [
+                    "pierce/#email"
+                ]
+            ],
+            "target": "main"
+        },
+        {
+            "type": "click",
+            "target": "main",
+            "selectors": [
+                [
+                    "aria/Submit"
+                ],
+                [
+                    "#submit-payment"
+                ],
+                [
+                    "xpath///*[@id=\"submit-payment\"]"
+                ],
+                [
+                    "pierce/#submit-payment"
+                ],
+                [
+                    "text/Submit"
+                ]
+            ],
+            "offsetY": 19.859375,
+            "offsetX": 73.53125
+        }
+    ]
+}
